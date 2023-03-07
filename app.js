@@ -57,28 +57,7 @@ app.get('/posts/:topic', function (req, res) {
       console.log('not found!');
     }
   })
-
-
-
-
-
-
-
 })
-// app.get('/posts', function (req, res) {
-//   res.render('posts');
-// })
-
-
-
-
-
-
-
-
-
-
-
 
 app.listen(3000, function () {
   console.log("Server started on port 3000");
